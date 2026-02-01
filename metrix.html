@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Particle Nexus - Pinch Zoom</title>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="metrix.js" defer></script>
+    <link rel="stylesheet" href="metrix.css" />
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+    <div class="overlay">
+        <header class="glass header">
+            <div>
+                <h1>mETRIX CORE</h1>
+                <div style="font-size: 0.55rem; opacity: 0.4; margin-top: 2px">
+                    Developed by Nonim Samarakoon v7.0
+                </div>
+            </div>
+            <div id="gesture-status">SYSTEM STANDBY</div>
+        </header>
+
+        <div class="controls-guide glass">
+            <div><b>👌 PINCH</b> Open/Close fingers to Zoom</div>
+            <div><b>✌️ PEACE</b> Toggle Vortex Mode</div>
+            <div><b>🖐 PALM</b> Full Expansion</div>
+            <div><b>✊ FIST</b> Instant Compression</div>
+            <div class="zoom-stat" id="zoom-val">Zoom Level: 1.0x</div>
+        </div>
+    </div>
+
+    <!-- Live Preview -->
+    <div class="camera-container">
+        <video id="hand-video" playsinline></video>
+        <canvas id="hand-canvas"></canvas>
+    </div>
+</body>
+
+</html>
