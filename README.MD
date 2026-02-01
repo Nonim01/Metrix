@@ -1,8 +1,8 @@
 # METRIX CORE - 3D Particle Nexus
 
-![mETRIX CORE Preview](preview.gif) <!-- Add a GIF or screenshot of your project -->
+![METRIX CORE Preview](preview.gif) <!-- Add a GIF or screenshot of your project -->
 
-**mETRIX CORE** is an interactive 3D particle system controlled entirely by hand gestures. Using **Three.js** for the 3D particle rendering and **MediaPipe Hands** for gesture recognition, this project brings a futuristic, immersive experience to your browser.
+**METRIX CORE** is an interactive 3D particle system controlled entirely by hand gestures. Using **Three.js** for the 3D particle rendering and **MediaPipe Hands** for gesture recognition, this project brings a futuristic, immersive experience to your browser.
 
 ---
 
@@ -31,5 +31,5 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Nonim01/Metrix.git
-cd metrix-core
+git clone https://github.com/Nonim01/METRIX.git
+cd METRIX-core
