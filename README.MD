@@ -1,4 +1,4 @@
-# mETRIX CORE - 3D Particle Nexus
+# METRIX CORE - 3D Particle Nexus
 
 ![mETRIX CORE Preview](preview.gif) <!-- Add a GIF or screenshot of your project -->
 
